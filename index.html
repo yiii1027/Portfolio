@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>個人網頁</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+</head>
+<body>
+
+  <!-- 個人資訊框 -->
+  <div id="message-box">
+    <img id="info-image" src="your-image.jpg" alt="个人信息图片">
+    <p>大家好！我是林芷伊！<br>目前就讀台北科技大學互動系二年級<br>高中畢業於台中高工圖文傳播科<br>目前還在探索未來中~<br>未來如有更多作品累積再分享給大家！</p>
+    
+  </div>
+
+  <!-- 漢堡菜單 -->
+  <div id="menu-container">
+    <button id="hamburger-menu" class="menu-btn">&#9776;</button>
+    <div id="menu-options" class="menu-options">
+      <button id="show-message" class="menu-btn">個人資料</button>
+      <button id="change-music" class="menu-btn">音樂合輯</button>
+    </div>
+  </div>
+
+  <!-- 畫布容器 -->
+  <div id="sketch-container"></div>
+
+  <script src="sketch.js"></script>
+</body>
+</html>
